@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4643D828B7C8010063E9CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4643D728B7C8010063E9CF /* AppDelegate.swift */; };
+		EB4643DA28B7C8010063E9CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4643D928B7C8010063E9CF /* SceneDelegate.swift */; };
+		EB4643DC28B7C8010063E9CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4643DB28B7C8010063E9CF /* ViewController.swift */; };
+		EB4643DF28B7C8010063E9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4643DD28B7C8010063E9CF /* Main.storyboard */; };
+		EB4643E128B7C8030063E9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4643E028B7C8030063E9CF /* Assets.xcassets */; };
+		EB4643E428B7C8030063E9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4643E228B7C8030063E9CF /* LaunchScreen.storyboard */; };
+		EB4643EF28B7C8040063E9CF /* PHS_Golf_StatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4643EE28B7C8040063E9CF /* PHS_Golf_StatsTests.swift */; };
+		EB4643F928B7C8040063E9CF /* PHS_Golf_StatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4643F828B7C8040063E9CF /* PHS_Golf_StatsUITests.swift */; };
+		EB4643FB28B7C8040063E9CF /* PHS_Golf_StatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4643FA28B7C8040063E9CF /* PHS_Golf_StatsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4643EB28B7C8040063E9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4643CC28B7C8010063E9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4643D328B7C8010063E9CF;
+			remoteInfo = "PHS Golf Stats";
+		};
+		EB4643F528B7C8040063E9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4643CC28B7C8010063E9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4643D328B7C8010063E9CF;
+			remoteInfo = "PHS Golf Stats";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB4643D428B7C8010063E9CF /* PHS Golf Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PHS Golf Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4643D728B7C8010063E9CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB4643D928B7C8010063E9CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB4643DB28B7C8010063E9CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB4643DE28B7C8010063E9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB4643E028B7C8030063E9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4643E328B7C8030063E9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB4643E528B7C8030063E9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4643EA28B7C8040063E9CF /* PHS Golf StatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PHS Golf StatsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4643EE28B7C8040063E9CF /* PHS_Golf_StatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHS_Golf_StatsTests.swift; sourceTree = "<group>"; };
+		EB4643F428B7C8040063E9CF /* PHS Golf StatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PHS Golf StatsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4643F828B7C8040063E9CF /* PHS_Golf_StatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHS_Golf_StatsUITests.swift; sourceTree = "<group>"; };
+		EB4643FA28B7C8040063E9CF /* PHS_Golf_StatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHS_Golf_StatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4643D128B7C8010063E9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4643E728B7C8040063E9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4643F128B7C8040063E9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4643CB28B7C8010063E9CF = {
+			isa = PBXGroup;
+			children = (
+				EB4643D628B7C8010063E9CF /* PHS Golf Stats */,
+				EB4643ED28B7C8040063E9CF /* PHS Golf StatsTests */,
+				EB4643F728B7C8040063E9CF /* PHS Golf StatsUITests */,
+				EB4643D528B7C8010063E9CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4643D528B7C8010063E9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4643D428B7C8010063E9CF /* PHS Golf Stats.app */,
+				EB4643EA28B7C8040063E9CF /* PHS Golf StatsTests.xctest */,
+				EB4643F428B7C8040063E9CF /* PHS Golf StatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4643D628B7C8010063E9CF /* PHS Golf Stats */ = {
+			isa = PBXGroup;
+			children = (
+				EB4643D728B7C8010063E9CF /* AppDelegate.swift */,
+				EB4643D928B7C8010063E9CF /* SceneDelegate.swift */,
+				EB4643DB28B7C8010063E9CF /* ViewController.swift */,
+				EB4643DD28B7C8010063E9CF /* Main.storyboard */,
+				EB4643E028B7C8030063E9CF /* Assets.xcassets */,
+				EB4643E228B7C8030063E9CF /* LaunchScreen.storyboard */,
+				EB4643E528B7C8030063E9CF /* Info.plist */,
+			);
+			path = "PHS Golf Stats";
+			sourceTree = "<group>";
+		};
+		EB4643ED28B7C8040063E9CF /* PHS Golf StatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4643EE28B7C8040063E9CF /* PHS_Golf_StatsTests.swift */,
+			);
+			path = "PHS Golf StatsTests";
+			sourceTree = "<group>";
+		};
+		EB4643F728B7C8040063E9CF /* PHS Golf StatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4643F828B7C8040063E9CF /* PHS_Golf_StatsUITests.swift */,
+				EB4643FA28B7C8040063E9CF /* PHS_Golf_StatsUITestsLaunchTests.swift */,
+			);
+			path = "PHS Golf StatsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4643D328B7C8010063E9CF /* PHS Golf Stats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4643FE28B7C8040063E9CF /* Build configuration list for PBXNativeTarget "PHS Golf Stats" */;
+			buildPhases = (
+				EB4643D028B7C8010063E9CF /* Sources */,
+				EB4643D128B7C8010063E9CF /* Frameworks */,
+				EB4643D228B7C8010063E9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PHS Golf Stats";
+			productName = "PHS Golf Stats";
+			productReference = EB4643D428B7C8010063E9CF /* PHS Golf Stats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4643E928B7C8040063E9CF /* PHS Golf StatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB46440128B7C8040063E9CF /* Build configuration list for PBXNativeTarget "PHS Golf StatsTests" */;
+			buildPhases = (
+				EB4643E628B7C8040063E9CF /* Sources */,
+				EB4643E728B7C8040063E9CF /* Frameworks */,
+				EB4643E828B7C8040063E9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4643EC28B7C8040063E9CF /* PBXTargetDependency */,
+			);
+			name = "PHS Golf StatsTests";
+			productName = "PHS Golf StatsTests";
+			productReference = EB4643EA28B7C8040063E9CF /* PHS Golf StatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB4643F328B7C8040063E9CF /* PHS Golf StatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB46440428B7C8040063E9CF /* Build configuration list for PBXNativeTarget "PHS Golf StatsUITests" */;
+			buildPhases = (
+				EB4643F028B7C8040063E9CF /* Sources */,
+				EB4643F128B7C8040063E9CF /* Frameworks */,
+				EB4643F228B7C8040063E9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4643F628B7C8040063E9CF /* PBXTargetDependency */,
+			);
+			name = "PHS Golf StatsUITests";
+			productName = "PHS Golf StatsUITests";
+			productReference = EB4643F428B7C8040063E9CF /* PHS Golf StatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4643CC28B7C8010063E9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EB4643D328B7C8010063E9CF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					EB4643E928B7C8040063E9CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EB4643D328B7C8010063E9CF;
+					};
+					EB4643F328B7C8040063E9CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EB4643D328B7C8010063E9CF;
+					};
+				};
+			};
+			buildConfigurationList = EB4643CF28B7C8010063E9CF /* Build configuration list for PBXProject "PHS Golf Stats" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4643CB28B7C8010063E9CF;
+			productRefGroup = EB4643D528B7C8010063E9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4643D328B7C8010063E9CF /* PHS Golf Stats */,
+				EB4643E928B7C8040063E9CF /* PHS Golf StatsTests */,
+				EB4643F328B7C8040063E9CF /* PHS Golf StatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4643D228B7C8010063E9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4643E428B7C8030063E9CF /* LaunchScreen.storyboard in Resources */,
+				EB4643E128B7C8030063E9CF /* Assets.xcassets in Resources */,
+				EB4643DF28B7C8010063E9CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4643E828B7C8040063E9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4643F228B7C8040063E9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4643D028B7C8010063E9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4643DC28B7C8010063E9CF /* ViewController.swift in Sources */,
+				EB4643D828B7C8010063E9CF /* AppDelegate.swift in Sources */,
+				EB4643DA28B7C8010063E9CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4643E628B7C8040063E9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4643EF28B7C8040063E9CF /* PHS_Golf_StatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4643F028B7C8040063E9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4643FB28B7C8040063E9CF /* PHS_Golf_StatsUITestsLaunchTests.swift in Sources */,
+				EB4643F928B7C8040063E9CF /* PHS_Golf_StatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4643EC28B7C8040063E9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4643D328B7C8010063E9CF /* PHS Golf Stats */;
+			targetProxy = EB4643EB28B7C8040063E9CF /* PBXContainerItemProxy */;
+		};
+		EB4643F628B7C8040063E9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4643D328B7C8010063E9CF /* PHS Golf Stats */;
+			targetProxy = EB4643F528B7C8040063E9CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB4643DD28B7C8010063E9CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4643DE28B7C8010063E9CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB4643E228B7C8030063E9CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4643E328B7C8030063E9CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4643FC28B7C8040063E9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB4643FD28B7C8040063E9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4643FF28B7C8040063E9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PHS Golf Stats/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Prospect.PHS-Golf-Stats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB46440028B7C8040063E9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PHS Golf Stats/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Prospect.PHS-Golf-Stats";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB46440228B7C8040063E9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Prospect.PHS-Golf-StatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PHS Golf Stats.app/PHS Golf Stats";
+			};
+			name = Debug;
+		};
+		EB46440328B7C8040063E9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Prospect.PHS-Golf-StatsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PHS Golf Stats.app/PHS Golf Stats";
+			};
+			name = Release;
+		};
+		EB46440528B7C8040063E9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Prospect.PHS-Golf-StatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PHS Golf Stats";
+			};
+			name = Debug;
+		};
+		EB46440628B7C8040063E9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Prospect.PHS-Golf-StatsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PHS Golf Stats";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4643CF28B7C8010063E9CF /* Build configuration list for PBXProject "PHS Golf Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4643FC28B7C8040063E9CF /* Debug */,
+				EB4643FD28B7C8040063E9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4643FE28B7C8040063E9CF /* Build configuration list for PBXNativeTarget "PHS Golf Stats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4643FF28B7C8040063E9CF /* Debug */,
+				EB46440028B7C8040063E9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB46440128B7C8040063E9CF /* Build configuration list for PBXNativeTarget "PHS Golf StatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB46440228B7C8040063E9CF /* Debug */,
+				EB46440328B7C8040063E9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB46440428B7C8040063E9CF /* Build configuration list for PBXNativeTarget "PHS Golf StatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB46440528B7C8040063E9CF /* Debug */,
+				EB46440628B7C8040063E9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4643CC28B7C8010063E9CF /* Project object */;
+}
