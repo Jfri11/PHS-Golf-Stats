@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var FairwayTextField: UITextField!
     @IBOutlet weak var GreensTextField: UITextField!
     @IBOutlet weak var PuttTextField: UITextField!
+    
+    
+    var golfIsBetterThanNothing = true
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
